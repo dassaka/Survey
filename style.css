@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+    height: 100vh;
+    width: 100%;
+}
+
+form{
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: white;
+    width: 50%;
+    height: 53vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text{
+    margin-left: 36%;
+    margin-top: 50px;
+    color: white;
+}
+
+/* The form */
+.userBox{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#name{
+    margin-left: 50px;
+    width: 70%;
+}
+
+.infoBox{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#department{
+    margin-left: 14px;
+    width: 70%;
+}
+
+.messageBox{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#message{
+    width: 70%;
+}
+
+.exerciseBox{
+    margin-bottom: 20px;
+    padding-left: 35%;
+    padding-top: 5px;
+}
+
+.readBox{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.choices{
+    margin-top: 15px;
+}
+
+.movieBox{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#btn{
+    width: 100%;
+    color: white;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#word{
+    background: steelblue;
+}

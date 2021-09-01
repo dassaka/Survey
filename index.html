@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="text">
+        <h1>Employee Interests <span id="word">Survey</span> Form</h1>
+    </div>
+
+
+    <form action="#">
+        <div class="userBox">
+            <label for="name">Enter your name:</label>
+            <input type="text" name="yourName" id="name">
+        </div>
+
+        <div class="infoBox">
+            <label for="department">Enter your department:</label>
+            <input type="text" name="yourDepartment" id="department">
+        </div>
+
+        <div class="messageBox">
+            <label for="message">Tell us a little about yourself:</label>
+            <textarea name="yourMessage" id="message" cols="50" rows="5"></textarea>
+        </div>
+
+        <div class="exerciseBox">
+            <span>Do you exercise at home ?</span>
+            <label for="workouty">Yes</label>
+            <input type="radio" name="answer" id="workouty">
+            <label for="workoutn">No</label>
+            <input type="radio" name="answer" id="workoutn">
+        </div>
+
+
+        <div class="readBox">
+            <p>How do you like to read about your favourite topics ?</p>
+            <div class="choices">
+                <input type="checkbox" name="answer2" id="book">
+                <label for="book">Book</label>
+                <input type="checkbox" name="answer2" id="online">
+                <label for="online">Online Resources</label>
+                <input type="checkbox" name="answer2" id="app">
+                <label for="app">Phone Apps</label>
+                <input type="checkbox" name="answer2" id="magazine">
+                <label for="magazine">Magazines</label>
+            </div>
+        </div>
+
+        <div class="movieBox">
+            <label for="pick">What gener of movies do you like ?</label>
+            <select name="gener" id="pic">
+                <option value="Comedy">Comedy</option>
+                <option value="action">Action</option>
+                <option value="Drama">Drama</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Submit Form" id="btn">
+        
+    </form>
+
+</body>
+</html>
